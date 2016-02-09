@@ -21,11 +21,6 @@ public class View extends JFrame {
         setContentPane(rootPanel);
         setSize(500, 500);
         setLocationRelativeTo(null);
-        titleButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(rootPanel, "You clicked the title");
-            }
-        });
+        titleButton.addActionListener(e -> JOptionPane.showMessageDialog(rootPanel, "You clicked the title"));
     }
 }
