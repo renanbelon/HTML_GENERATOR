@@ -26,7 +26,7 @@ public class Paragraph extends Tag {
         return text;
     }
 
-    public String getParagraph() {
-        return getOpeningTag() + text + getClosingTag() + "\n";
+    public String getHTML() {
+        return getOpeningTag() + getText() + getClosingTag() + "\n";
     }
 }
