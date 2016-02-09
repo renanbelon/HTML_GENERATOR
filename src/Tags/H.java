@@ -26,20 +26,20 @@ public class H extends Tag {
             setOpeningTag("<h1>");
             setClosingTag("</h1>");
         } else if (type == 2) {
-            setOpeningTag("<h1>");
-            setClosingTag("</h1>");
+            setOpeningTag("<h2>");
+            setClosingTag("</h2>");
         } else if (type == 3) {
-            setOpeningTag("<h1>");
-            setClosingTag("</h1>");
+            setOpeningTag("<h3>");
+            setClosingTag("</h3>");
         } else if (type == 4) {
-            setOpeningTag("<h1>");
-            setClosingTag("</h1>");
+            setOpeningTag("<h4>");
+            setClosingTag("</h4>");
         } else if (type == 5) {
-            setOpeningTag("<h1>");
-            setClosingTag("</h1>");
+            setOpeningTag("<h5>");
+            setClosingTag("</h5>");
         } else if (type == 6) {
-            setOpeningTag("<h1>");
-            setClosingTag("</h1>");
+            setOpeningTag("<h6>");
+            setClosingTag("</h6>");
         }
         this.type = type;
     }
